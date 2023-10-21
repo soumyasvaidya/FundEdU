@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2cfb0a-b077-4375-afe4-15e989e4f483" name="Changes" comment="" />
+    <list default="true" id="1b2cfb0a-b077-4375-afe4-15e989e4f483" name="Changes" comment="entity class&#10;controller">
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/Repositories/userRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/dto/loanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/dto/userDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/services/loanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/services/loanServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/services/userService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/services/userServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/controller/loanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/controller/loanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/entity/loanDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/fundedu/src/main/java/com/fundeduplatform/fundedu/entity/loanDetails.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7f193f94-8935-4b67-acad-60c8751cd10c" />
+        <option name="url" value="https://github.com/soumyasvaidya/FundEdU.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -20,15 +45,29 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/soumy/IdeaProjects/FundEdU"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/soumy/IdeaProjects/FundEdU&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration name="FundeduApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fundeduplatform.fundedu.FundeduApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fundeduplatform.fundedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FundEdU" />
       <method v="2">
@@ -42,6 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FundeduApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +96,18 @@
       <option name="presentableId" value="Default" />
       <updated>1697913859133</updated>
     </task>
+    <task id="LOCAL-00001" summary="entity class&#10;controller">
+      <created>1697923221317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697923221317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="entity class&#10;controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="entity class&#10;controller" />
   </component>
 </project>

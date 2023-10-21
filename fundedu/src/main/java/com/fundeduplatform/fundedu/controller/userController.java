@@ -17,7 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/funded/api", produces = MediaType.APPLICATION_JSON_VALUE)
 public class UserController {
     @Autowired
-   // UserService userService;
+   UserService userService;
+
+    @GetMapping("/register")
+    public Long login(@RequestBody UserDTO userDTO){
+        return 123456
+    }
 
     @PostMapping("/login")
     public Long login(@RequestBody UserDTO userDTO){

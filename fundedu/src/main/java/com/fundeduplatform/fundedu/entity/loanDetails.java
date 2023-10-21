@@ -23,7 +23,6 @@ public class LoanDetails {
     private Long investorId;
     private Date loanStartDate;
     private String loanAmount;
-    private String allowGrace;
     private String baseRate;
     private Long interestFrequency;
     private Long paymentFrequency;
@@ -35,6 +34,7 @@ public class LoanDetails {
     private Date updatedDt;
     private String updatedBy;
     private String activeFlag;
+    private Boolean isRepayment;
 
     public LoanDetails(){}
 
